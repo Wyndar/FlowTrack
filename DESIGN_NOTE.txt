@@ -1,0 +1,16 @@
+The manager view is designed around quick comparison for early intervention.
+Summary cards show the overall workload first, followed by per-employee
+progress so a manager can identify uneven workloads or stalled work before
+reviewing individual tasks.
+
+The task list uses a compact, scrollable table because managers need to compare
+employees, deadlines, status, and delivery risk at the same time. Filters make
+it possible to narrow the list without splitting the team's work across
+separate screens. On smaller displays, each table row becomes a labelled card
+so the same information remains readable without horizontal scrolling.
+
+Task status and delivery risk are deliberately presented as separate values.
+A task can still be pending without being at risk, while a risk flag highlights
+work that may need attention without changing its completion state. This keeps
+the meaning of each indicator clear and lets managers flag or unflag concerns
+without editing progress that is owned by the employee.
